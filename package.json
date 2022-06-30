@@ -1,0 +1,36 @@
+{
+  "name": "textlint-rule-preset-comnico",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Comnico/textlint-rule-preset-comnico.git"
+  },
+  "keywords": [
+    "textlint",
+    "textlintrule",
+    "comnico"
+  ],
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "textlint-scripts": "^12.0.2",
+    "textlint-tester": "^12.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "Masahiro Sugiura <m.sugiura@comnico.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Comnico/textlint-rule-preset-comnico/issues"
+  },
+  "homepage": "https://github.com/Comnico/textlint-rule-preset-comnico#readme"
+}

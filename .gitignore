@@ -1,0 +1,10 @@
+# システム関係
+.DS_Store
+Thumbs.db
+
+# 言語関係
+node_modules
+*.log
+
+# キャッシュ関係
+.textlintcache
