@@ -1,0 +1,177 @@
+# prh version
+version: 1
+rules:
+  # 漢字の開閉
+  - expected: および
+    pattern:
+      - 及び
+  - expected: また
+    pattern:
+      - 又
+  - expected: すでに
+    pattern:
+      - 既に
+  - expected: はず
+    pattern:
+      - 筈
+  - expected: 最も
+    pattern:
+      - もっとも
+  - expected: よい
+    pattern:
+      - 良い
+  - expected: ともに
+    pattern:
+      - 共に
+  - expected: ほとんど
+    pattern:
+      - /(殆ど|殆んど)/
+  - expected: たくさん
+    pattern:
+      - 沢山
+  - expected: あらかじめ
+    pattern:
+      - 予め
+  - expected: しばらく
+    pattern:
+      - 暫く
+  - expected: ぜひ
+    pattern:
+      - 是非
+  - expected: なお
+    pattern:
+      - 尚
+  - expected: いわゆる
+    pattern:
+      - 所謂
+  - expected: なぜ
+    pattern:
+      - 何故
+  - expected: どこ
+    pattern:
+      - 何処
+  - expected: しだいに
+    pattern:
+      - 次第に
+  - expected: ない
+    pattern:
+      - 無い
+  - expected: やすい
+    pattern:
+      - 易い
+  - expected: わかる
+    pattern:
+      - 分かる
+  - expected: かける
+    pattern:
+      - 掛ける
+  - expected: はかどる
+    pattern:
+      - 捗る
+  - expected: ある
+    pattern:
+      - /(有|在)る/
+  - expected: でき$1
+    pattern:
+      - /出来(た|て|ま|る)/
+  - expected: $1とき
+    pattern:
+      - /(いる|した|ない)時/
+  - expected: $1ごと
+    pattern:
+      - /(時間|月|([毎])日|秒)毎/
+      - /(投稿|ステータス|アイテム|業界)毎/
+  - expected: していただ$1
+    pattern:
+      - /して頂(き|く)/
+  - expected: してお$1
+    pattern:
+      - /して置(き|く)/
+  - expected: ください
+    pattern:
+      - 下さい
+  - expected: してみる
+    pattern:
+      - して見る
+  - expected: おいしい
+    pattern:
+      - 美味しい
+  - expected: ありがとう
+    pattern:
+      - /有難う|有り難う|あり難う/
+  - expected: ございま$2
+    pattern:
+      - /(御座いま|ご座いま|御ざいま)(した|す|せん)/
+  - expected: いかが
+    pattern:
+      - 如何
+  - expected: いたします
+    pattern:
+      - 致します
+  - expected: 一度に
+    pattern:
+      - いちどに
+  - expected: いち早く
+    pattern:
+      - いち早く
+  - expected: いつも
+    pattern:
+      - 何時も
+  - expected: 主な
+    pattern:
+      - おもな
+  - expected: 申し込$2
+    pattern:
+      - /申(しこ|込)(み|む)/
+  # 使う or 使わない
+  - expected: では
+    pattern:
+      - においては
+  - expected: するため
+    pattern:
+      - すべく
+  - expected: いずれ
+    pattern:
+      - いづれ
+  # カタカナ語の表記統一(長音符号など)
+  - expected: コンピュータ
+    pattern:
+      - コンピューター
+  - expected: カテゴリ
+    pattern:
+      - /カテゴリ(ー|ィ)/
+  - expected: コミュニケーション
+    pattern:
+      - コミニュケーション
+  - expected: シミュレーション
+    pattern:
+      - シュミレーション
+  - expected: パラメータ
+    pattern:
+      - パラメーター
+  # 冗長な表記の修正
+  - expected: する
+    pattern:
+      - 行う
+  - expected: でき
+    pattern:
+      - ことができ
+      - 行え
+  - expected: 冗長な表現になっていないか確認
+    pattern:
+      - 行い
+      - 行わ
+      - 行っ
+  - expected: が
+    pattern:
+      - することが
+  - expected: いたします
+    pattern:
+      - させていただきます
+  - expected: ください
+    pattern:
+      - /くださいませ|くださいませんでしょうか/
+  # 数字・日付
+  - expected: ヶ
+    pattern:
+      - ヵ

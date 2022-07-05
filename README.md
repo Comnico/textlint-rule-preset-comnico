@@ -1,29 +1,27 @@
-# textlint-rule-comnicoa
+# textlint-rule-comnico
 
-
-
-## Install
+## インストール
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-comnicoa
+    npm install textlint-rule-comnico
 
-## Usage
+## 使いかた
 
 Via `.textlintrc`(Recommended)
 
 ```json
 {
-    "rules": {
-        "comnicoa": true
-    }
+  "rules": {
+    "comnico": true
+  }
 }
 ```
 
 Via CLI
 
 ```
-textlint --rule comnicoa README.md
+textlint --rule comnico README.md
 ```
 
 ### Build
@@ -42,4 +40,4 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 
 ## License
 
-ISC © Masahiro Sugiura
+MIT © 2022 comnico inc.
