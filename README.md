@@ -1,4 +1,6 @@
-# textlint-rule-comnico
+# textlint-rule-preset-comnico
+
+文章内容が、「コムニコプロダクト表記ガイドライン」に沿っているかチェックするための textlint ルールプリセットです。
 
 ## インストール
 
