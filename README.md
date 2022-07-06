@@ -15,7 +15,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
   "rules": {
-    "comnico": true
+    "preset-comnico": true
   }
 }
 ```
