@@ -15,8 +15,7 @@
   ],
   "main": "lib/textlint-rule-preset-comnico.js",
   "scripts": {
-    "test": "cd example && yarn add ../ && npm test",
-    "release": "changeset publish"
+    "test": "cd example && yarn add ../ && yarn test"
   },
   "directories": {
     "test": "test"
