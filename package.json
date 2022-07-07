@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-preset-comnico",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Comnico/textlint-rule-preset-comnico.git"
@@ -15,8 +15,7 @@
   ],
   "main": "lib/textlint-rule-preset-comnico.js",
   "scripts": {
-    "test": "cd example && yarn add ../ && npm test",
-    "release": "changeset publish"
+    "test": "cd example && yarn add ../ && yarn test"
   },
   "directories": {
     "test": "test"

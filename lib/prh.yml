@@ -171,6 +171,9 @@ rules:
   - expected: ください
     pattern:
       - /くださいませ|くださいませんでしょうか/
+  - expected: 本サービス
+    pattern:
+      - /このサービス|当サービス/
   # 数字・日付
   - expected: ヶ
     pattern:
