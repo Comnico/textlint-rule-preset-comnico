@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-preset-comnico",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Comnico/textlint-rule-preset-comnico.git"
