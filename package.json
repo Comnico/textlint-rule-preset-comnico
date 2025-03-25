@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-preset-comnico",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Comnico/textlint-rule-preset-comnico.git"
@@ -60,5 +60,8 @@
   },
   "devDependencies": {
     "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "textlint": "^12.0.0"
   }
 }
